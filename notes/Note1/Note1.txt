@@ -1,0 +1,22 @@
+item = global.item_list.[[nomedoitem]];
+item_add(item)
+
+Resources:   prefix_name (obj_player, spr_player)
+Variables:   snake_case (player_name, move_speed)
+temporary var: _snake_case with underline before it (_xx, _yy)
+Constants:   UPPER_CASE (MAX_HEALTH, GRAVITY
+    
+    obj_gameState.paginas[0] = true;
+    obj_paginas.pagina_atual = 2;
+    
+    // Desligar tudo
+obj_controller.loop_desligar();
+
+// Religar de onde parou
+obj_controller.loop_ligar();
+
+// Reiniciar do padrão 0
+obj_controller.loop_reiniciar();
+
+// Acelerar o loop (2x)
+obj_controller.setar_velocidade(2.0);

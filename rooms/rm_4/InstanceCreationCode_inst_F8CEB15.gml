@@ -1,0 +1,1 @@
+pedra_conectada = 1;

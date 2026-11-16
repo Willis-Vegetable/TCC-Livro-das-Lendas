@@ -1,0 +1,1 @@
+linked_gates = [gateC, gateB, exitGate2];

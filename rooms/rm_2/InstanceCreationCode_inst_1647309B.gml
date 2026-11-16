@@ -1,0 +1,1 @@
+dialog = global.placa2
