@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_alert128x128",
-    "path":"sprites/spr_alert128x128/spr_alert128x128.yy",
+    "name":"spr_shadow",
+    "path":"sprites/spr_shadow/spr_shadow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

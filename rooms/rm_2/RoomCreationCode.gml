@@ -13,5 +13,5 @@ if (instance_exists(obj_player))
 {
     obj_player.visible = true; 
     obj_player.canMove = true; 
-    obj_player.sprite_index = spr_gaDown
+    obj_player.sprite_index = spr_gaUp
 }

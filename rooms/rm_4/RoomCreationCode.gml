@@ -12,6 +12,7 @@ if (instance_exists(obj_player))
 {
     obj_player.visible = true; 
     obj_player.canMove = true; 
+    obj_player.sprite_index = spr_gaRight
 }
 
 if obj_gameState.pedra_1 {
@@ -32,4 +33,7 @@ if obj_gameState.pedra_3 {
     instance_create_depth(1408, 768, 0, obj_pushBlock)
 }
 
-
+instance_deactivate_object(obj_firever1);
+instance_deactivate_object(obj_firever2);
+instance_deactivate_object(obj_firehor1);
+instance_deactivate_object(obj_firehor2);

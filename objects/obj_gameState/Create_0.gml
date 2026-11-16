@@ -10,10 +10,10 @@ pedra_2 = false;
 pedra_3 = false;
 
 //teste
-nomePlayer = "Jõao";
+//nomePlayer = "Jõao";
 
 // facilirtar teste
-paginas = [true, true, true, true, true];
-tutor_complete = true;
+//paginas = [true, true, true, true, true];
+//tutor_complete = true;
 
 

@@ -49,6 +49,22 @@ if (pagina_atual >= 0 && pagina_atual < array_length(obj_gameState.paginas))
     }
 }
 
+// ---- Texto da página (draw_text centralizado) ----
+if (pagina_atual >= 0 && pagina_atual < array_length(obj_gameState.paginas))
+{
+    var _page_text = "";
+    switch (pagina_atual)
+    {
+        case 0: _page_text = "Furna da\nSalamanca"; break;
+        case 1: _page_text = "Espadas\nnas sombras"; break;
+        case 2: _page_text = "Jaguares\nferozes"; break;
+        case 3: _page_text = "Esqueletos\ne caveiras"; break;
+        case 4: _page_text = "Línguas\nde fogo"; break;
+    }
+    
+    draw_text_center(_page_text, 425, 500, c_black);
+}
+
 // ---- Botão "Long" (avança para a sala da página atual) ----
 draw_sprite(spr_buttonSmol, 0, 300, 400);
 
